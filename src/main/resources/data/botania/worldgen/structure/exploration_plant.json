@@ -1,0 +1,17 @@
+{
+  "biomes": "#botania:has_structure/exploration",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "type": "botania:supported_template",
+  "terrain_adaptation": "none",
+  "templates": [
+    "botania:exploration/plant_1",
+    "botania:exploration/plant_2",
+    "botania:exploration/plant_3",
+    "botania:exploration/plant_4",
+    "botania:exploration/plant_5",
+    "botania:exploration/plant_6",
+    "botania:exploration/plant_7"
+  ],
+  "ground_layer": false
+}

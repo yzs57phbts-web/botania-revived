@@ -1,0 +1,20 @@
+The five exploration structure JSON files are canonical hand-authored resources.
+No datagen provider emits or overwrites them. Their structure IDs, structure sets,
+template names, placement settings and island resources are unchanged.
+
+Botania owns botania:supported_template for structure type and structure piece.
+When bbtt_fixes is absent, separate decoder aliases accept the historical
+bbtt_fixes:supported_template IDs. Decoded pieces save the canonical Botania ID.
+If the old helper is present, Botania does not register conflicting old aliases.
+No bbtt_fixes mod metadata or helper mixin is embedded.
+
+The nativeStructureTest sources/resources are test-only and do not enter the JAR.
+Run through the shared project Gradle lock:
+gradlew -Pminimal -Pruntime_itemlist_mod=none -Pruntime_tooltip_mod=none
+  -Pdev_neo_version=21.1.264 -PnativeStructureTestRun=<fresh-label>
+  runNativeStructureTests
+Use a flat GameTest world and omit the bbtt-fixes JAR for the migration suite.
+The seven GameTests cover real registry decoding, all five structure definitions,
+ground/foundation rules, four rotations, actual old piece NBT decoding/resaving,
+air/structure-marker preservation, real chunk structure references/intersections,
+and the unchanged two island templates. All fixture source files are isolated.

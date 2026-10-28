@@ -1,0 +1,14 @@
+{
+  "biomes": "#botania:has_structure/exploration",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "type": "botania:supported_template",
+  "terrain_adaptation": "none",
+  "templates": [
+    "botania:exploration/lake_1",
+    "botania:exploration/lake_2",
+    "botania:exploration/lake_3",
+    "botania:exploration/lake_4"
+  ],
+  "ground_layer": true
+}

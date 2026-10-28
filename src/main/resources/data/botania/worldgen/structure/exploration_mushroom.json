@@ -1,0 +1,13 @@
+{
+  "biomes": "#botania:has_structure/exploration",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "type": "botania:supported_template",
+  "terrain_adaptation": "none",
+  "templates": [
+    "botania:exploration/mushroom_1",
+    "botania:exploration/mushroom_2",
+    "botania:exploration/mushroom_3"
+  ],
+  "ground_layer": false
+}

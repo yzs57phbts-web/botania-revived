@@ -1,0 +1,18 @@
+{
+  "biomes": "#botania:has_structure/exploration",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "type": "botania:supported_template",
+  "terrain_adaptation": "none",
+  "templates": [
+    "botania:exploration/ruin_1",
+    "botania:exploration/ruin_2",
+    "botania:exploration/ruin_3",
+    "botania:exploration/ruin_4",
+    "botania:exploration/ruin_5",
+    "botania:exploration/ruin_6",
+    "botania:exploration/ruin_7",
+    "botania:exploration/ruin_8"
+  ],
+  "ground_layer": false
+}

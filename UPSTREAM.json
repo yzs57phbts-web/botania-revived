@@ -1,0 +1,9 @@
+{
+  "curseforge": "https://www.curseforge.com/minecraft/mc-mods/botania-revived",
+  "source": "https://github.com/Velron-Devs/Botania-Revived",
+  "source_basis": "06fe34cb8c6a91e90295126eead067dc4be107e0",
+  "author_jar": "Botania Revived-1.21.1-1.0.2-bbtt.4-NeoForge.jar",
+  "sha256": "dc92921d27377e348ab0e96f95a6407925f5de2c88e8437acbfbd92fc4cbe8b1",
+  "local_binary_changed": true,
+  "artifact_license": "Botania License"
+}
